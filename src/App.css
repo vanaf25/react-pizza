@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+html.lock,body.lock{
+    overflow: hidden;
+}
+.container{
+    max-width: 1170px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial,sans-serif;
+}
+p{
+    font-family: 'Roboto',Arial,sans-serif;
+}
+@media (max-width: 1200px) {
+    .content{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .content{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .content {
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    html,body{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
